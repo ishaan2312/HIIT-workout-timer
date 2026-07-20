@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#1a1a1a" rx="120"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff5722;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle -->
+  <circle cx="256" cy="256" r="200" fill="url(#grad)"/>
+  
+  <!-- Timer display background -->
+  <circle cx="256" cy="256" r="160" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="3"/>
+  
+  <!-- Timer digits -->
+  <text x="256" y="310" font-size="140" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">30</text>
+  
+  <!-- Decorative elements -->
+  <!-- Pulse rings -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+  
+  <!-- Tick marks (timer style) -->
+  <g stroke="rgba(255,255,255,0.6)" stroke-width="4" stroke-linecap="round">
+    <!-- Top -->
+    <line x1="256" y1="50" x2="256" y2="90"/>
+    <!-- Right -->
+    <line x1="462" y1="256" x2="422" y2="256"/>
+    <!-- Bottom -->
+    <line x1="256" y1="462" x2="256" y2="422"/>
+    <!-- Left -->
+    <line x1="50" y1="256" x2="90" y2="256"/>
+    <!-- Diagonal ticks -->
+    <line x1="355" y1="85" x2="325" y2="115"/>
+    <line x1="427" y1="427" x2="397" y2="397"/>
+  </g>
+</svg>

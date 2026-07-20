@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Full background for maskable icon (solid color, Android will create mask) -->
+  <rect width="512" height="512" fill="#ff6b35"/>
+  
+  <!-- Central safe area -->
+  <circle cx="256" cy="256" r="150" fill="#ff6b35"/>
+  
+  <!-- Timer background -->
+  <circle cx="256" cy="256" r="130" fill="rgba(255,255,255,0.2)"/>
+  
+  <!-- Timer numbers -->
+  <text x="256" y="310" font-size="100" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial, sans-serif">30</text>
+  
+  <!-- Decorative ring -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="3"/>
+  
+  <!-- Minimal design lines -->
+  <g stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round">
+    <line x1="256" y1="100" x2="256" y2="130"/>
+    <line x1="412" y1="256" x2="382" y2="256"/>
+  </g>
+</svg>
